@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995823877944",
+    "project_id": "login-ui-351d5",
+    "storage_bucket": "login-ui-351d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995823877944:android:864e540f768ed153ec4bcd",
+        "android_client_info": {
+          "package_name": "com.example.login_ui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0f77o-_oKsZa9echyECzfKXP48Fps-G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
