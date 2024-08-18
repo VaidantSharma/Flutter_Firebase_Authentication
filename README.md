@@ -1,4 +1,4 @@
-This is a flutter project that aims to show how to link a Flutter project with Firebase and implement the Firebase Authentication method to it
+<pre>This is a flutter project that aims to show how to link a Flutter project with Firebase and implement the Firebase Authentication method to it
 The method used here to integrate the Firebase to this Project is using Flutterfire CLI
 There are also some possible issues which you might encounter while Running the Application there solutions are listed below.
 If you face any other challenge you can reach me out 
@@ -19,3 +19,4 @@ If you face any other challenge you can reach me out
 Possible Error
     1. Current AndroidSDK version incompatible
         To resolve this issue go to android/app/build.gradle directory and inside defaultConfig{} set minSdk = 23.
+<pre>
