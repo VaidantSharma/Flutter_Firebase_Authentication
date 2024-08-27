@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_ui/Services/LoginMobile.dart';
 import 'package:login_ui/Services/createAccount.dart';
 import 'package:login_ui/UIPages/homePage.dart';
 
@@ -72,6 +73,17 @@ class _LoginScreen extends State<LoginScreen> {
                 ));
               },
               child: const Text("Create Account"),
+            ),
+            const SizedBox(
+              height: 30,
+            ),
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => LoginScreenMobile(),
+                ));
+              },
+              child: const Text("Login Using Mobile NUmber"),
             ),
           ],
         ),
